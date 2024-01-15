@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+/* ------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600&family=Sofia+Sans+Extra+Condensed:wght@400;500&family=Stint+Ultra+Condensed&family=Teko:wght@300;400;500&display=swap');
+/* ------------------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*---------------------------------------------------*/
+body{
+    background-color: #E8D6CB;
+   
+}
+@font-face {
+    font-family: 'cyber';
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+header{
+    background: linear-gradient(to top,#2b928e 50%, #2EC4B6);
+    color: white;
+    text-align: center;
+    box-shadow: 0px 0px 10px -3px black;
+}
+
+header h1{
+    padding: 25px 0 0 15px;
+    font-family: 'Stint Ultra Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 4em;
+    text-shadow: 0px 0px 4px black;
+}
+
+header p{
+    text-align: center;
+    padding: 20px 0 10px 0;
+    text-shadow: 0px 0px 3px black;
+}
+
+header div ul {
+    list-style: none;
+    display: flex;
+    margin: 15px 0 0 15px;
+    padding-bottom: 10px;
+}
+
+ul li{
+    padding: 10px;
+    transition: background 0.3s;
+    border-radius: 8px;
+}
+
+ul li:hover{
+    background-color: #1a7b78;
+    
+}
+
+/*------------tratando do main ---------------------------*/
+
+main{
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    border-radius: 0 0 8px 8px;
+}
+
+main h1{
+    font-family: 'cyber';
+    color: #040F16;
+    padding: 15px 0 15px 16px;
+}
+
+ p{
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    text-indent: 25px;
+    text-align: justify;
+    padding: 0 18px;
+}
+
+#primeira-sect a{
+    text-decoration: none;
+}
+
+.azul-escuro{
+    color: #1a7b78;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.h2main{
+    color: #040F16;
+    font-family: 'cyber';
+    font-size: 1.2em;
+    margin: 15px 15px 15px 15px;
+    background: linear-gradient(to right, #44cfca6d, transparent);
+    text-indent: 10px;
+}
+
+#primeira-sect img{
+ display: block;
+ margin: auto; 
+ width: 100%; 
+}
+/*segunda secção-------------------------------------------------*/
+
+#segunda-sect a{
+    text-decoration: none;
+}
+
+#segunda-sect img{
+    display: block;
+    margin: auto;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    width: 100%;
+}
+
+
+#video{
+    padding: 20px;
+    background-color: #2ab9b4;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    position: relative;
+    padding-bottom: 50%;
+}
+
+#video iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#informacoes{
+   background-color: #2ec4b535;
+   margin: auto;
+   width: 95%;
+   border-radius: 8px;
+   box-shadow: 0px 0px 10px -3px black;
+}
+
+.titulo{
+    background-color: #00af9e;
+    border-radius: 8px 8px 0 0;
+    color: aliceblue;
+    padding: 5px;
+    color: white;
+    
+}
+
+#informacoes p{
+    margin: 15px;
+}
+
+.ul-separada ul{
+    list-style: none;
+    padding-left: 7px;
+    padding-bottom: 20px;
+    width: 50%;
+    float: left;
+}
+
+.ul-separada li::before{
+    content: '✔';
+}
+
+#informacoes a{
+    text-decoration: none;
+}
+
+#informacoes-foot{
+    padding-bottom: 15px;
+}
+
+.mini-footer{
+    margin: 20px;
+    padding: 24px;
+    
+}
+
+.mini-footer a{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    background-color: #1A7B78;
+    color: white;
+    margin-top: 10px;
+}
